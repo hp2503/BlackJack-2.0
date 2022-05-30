@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>BlackJack 2.0 Game </title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="A modified and simplified version of classical BlackJack Game.In this user bets up and draw cards. Total card values of 21 make you winner and double your money and if more than 21 you lose and less than 21 gives you same money">
+    <meta name="keywords" content="CardGame ,BlackJack 2.0 ,Classical ,game ">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+
+  <body>
+    <div>
+      <ul class="top">
+        <li ><button id="reset" onclick="reset()">Reset</button></li>
+        <li>
+          <a href="./instructions.html" target="_blank">
+          <button id="help">
+            help(i)
+          </button>
+          </a>
+        </li>
+        <li id="coins">Coins: 5000</li>
+      </ul>
+    </div>
+
+    <div class="msg" >
+      <h3 id="msg">Want to play BlackJack?</h3>
+    </div>
+
+    <br>
+
+    <div class="game-details">
+      <h3  id="cards">Cards:</h3>
+      <br>
+      <h3  id="sum">Sum: </h3>
+    </div>
+
+    <div class="op-buttons" id="next">
+      <button id="start" class="next" onclick=startgame()>Start Game</button>
+      <button id="newcard" class="next" onclick=newcard()>Pick New Card</button>
+      <button id="quit" onclick=quit()>Quit</button>
+    </div>
+    
+    <div class="footer">
+      <footer>
+        A Modified Clone of Classical BlackJack Game &copy 2021-2022; Made by Hardik Prashar using HTML5, CSS3 and JavaScript.
+      </footer>
+      <p class="contactme">
+        <pre>
+          Name : Hardik Prashar ;
+          Mobile/Whatsapp : <a href="tel:+917888954253">+917888954253</a>
+          eMail : <a href="mailto:hardikprashar25@gmail.com">hardikprashar25@gmail.com</a>
+
+        </pre>
+      </p>
+      <footer>
+
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html> 
